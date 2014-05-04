@@ -194,7 +194,7 @@ public class IconCache {
         synchronized (mCache) {
             CacheEntry entry = cacheLocked(application.componentName, info, labelCache);
 
-            application.title = entry.title;
+            application.title = "";
             application.iconBitmap = entry.icon;
         }
     }
@@ -239,15 +239,15 @@ public class IconCache {
 
             ComponentName key = LauncherModel.getComponentNameFromResolveInfo(info);
             if (labelCache != null && labelCache.containsKey(key)) {
-                entry.title = labelCache.get(key).toString();
+                entry.title = "";
             } else {
-                entry.title = info.loadLabel(mPackageManager).toString();
+                entry.title = "";
                 if (labelCache != null) {
                     labelCache.put(key, entry.title);
                 }
             }
             if (entry.title == null) {
-                entry.title = info.activityInfo.name;
+                entry.title = "";
             }
 
             Drawable icon = getFullResIcon(info);
