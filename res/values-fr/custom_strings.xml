@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_workspace_title">Paramètres de l\'écran d\'accueil</string>
+    <string name="pref_title_workspace_rows">Lignes</string>
+    <string name="pref_title_workspace_cols">Colonnes</string>
+    <string name="pref_title_default_workspace">Écran par défaut</string>
+    <string name="pref_title_show_search_bar">Afficher la barre de recherche</string>
+    <string name="dialog_pick_iconpack_title">Choisissez le pack d\'icônes</string>
+    <string name="default_iconpack_title">Icônes par défaut</string>
+    <string name="icon_packs_title">Packs d\'icônes</string>
+    <string name="no_iconpacks_summary">Aucun pack d\'icônes installé</string>
+    <string name="pref_icon_pack_title">Pack d\'icônes</string>
+</resources>
